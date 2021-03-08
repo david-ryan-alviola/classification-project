@@ -1,7 +1,4 @@
-import sys
-
-from env import user, password, host, util_path
-sys.path.append(util_path) # Only required if utilities.py is not in your project directory
+from env import user, password, host
 from utilities import generate_db_url, generate_df
 
 def acquire_telco_churn_data():
