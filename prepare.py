@@ -40,4 +40,13 @@ def prepare_telco_data(telco_df):
     telco_df.drop(columns=drop_first_false, inplace=True)
     telco_df.drop(columns=drop_first_true, inplace=True)
 
+    # Remove spaces from encoded column names
+    telco_df.rename(columns={'contract_type_One year' : 'contract_type_One_year',
+                         'contract_type_Two year' : 'contract_type_Two_year',
+                         'internet_service_type_Fiber optic' : 'internet_service_type_Fiber_optic',
+                         'payment_type_Bank transfer (automatic)' : 'payment_type_Bank_transfer',
+                         'payment_type_Credit card (automatic)' : 'payment_type_Credit_card',
+                         'payment_type_Electronic check' : 'payment_type_Electronic_check',
+                         'payment_type_Mailed check' : 'payment_type_Mailed_check'}, inplace=True)
+
     return split_dataframe(telco_df, stratify_by="churn_Yes")
