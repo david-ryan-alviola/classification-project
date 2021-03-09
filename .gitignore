@@ -135,5 +135,6 @@ prepare.ipynb
 explore.ipynb
 model.ipynb
 
-# Cached data
+# Cached data and generated files
 telco_churn.csv
+customer_predictions.csv
