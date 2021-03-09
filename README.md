@@ -79,6 +79,9 @@ payment_type_Credit_card | Indicates if customer pays using a credit card | int
 payment_type_Electronic_check | Indicates if customer pays using e-check | int
 payment_type_Mailed_check | Indicates if customer pays using paper check | int
 
+## Results
+Original results are found [here](https://drive.google.com/file/d/18vnvnSJPfsEhv2MpF-X3bKvr3kAHr6uX/view?usp=sharing).
+
 ## Recommendations
 1. Reduce monthly cost and incentivize tenure
 2. Continue fine tuning model
