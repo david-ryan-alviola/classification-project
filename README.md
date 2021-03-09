@@ -28,7 +28,7 @@ This project uses the TELCO Churn data set to create a classification model that
 1. Low churn rate overall, but significant increase in churn for month-to-month and fiber optic customers
 2. Possible drivers are the above average monthly charges for month-to-month and fiber optic customers
 3. Churned customers tend to last only 18 months and even less for month-to-month and fiber optic customers.
-4. We can predict churn with 78% accuracy.
+4. We can predict churn with 76% accuracy.
     
 ## The Plan
 The Kanban board used for planning is [here](https://trello.com/b/ipr1KRLX).
